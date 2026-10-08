@@ -1,0 +1,27 @@
+# 密钥/敏感信息
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 向量库/生成的数据
+chroma_db/
+chroma_law/
+chat_history/
+graphflow-out/
+.graphflow/
+.graphflow-cache/
+dsh_law_test_e33dwiqq/
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+Thumbs.db
+desktop.ini
